@@ -16,7 +16,7 @@ export function Favourites(){
             {
                 favourites.map(fav => 
                 <Favourite 
-                fav={fav}
+                {...fav}
                 key={fav.id}
                 />)
             }
